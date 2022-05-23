@@ -1,0 +1,114 @@
+body
+{
+  font-family: 'Epilogue', sans-serif;
+  color : hsl(0, 0%, 8%);
+}
+img
+{
+  width: 80%;
+}
+
+.left
+{
+  margin-left: 40px;
+}
+.right
+{
+  margin-left: 40px;
+  margin-right: 30px;
+}
+
+.navbar-brand
+{
+  font-size: 35px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.links
+{
+  margin-right: 25px;
+}
+.c-left
+{
+  margin: 16% 0 0 0% ;
+}
+.c-right
+{
+
+
+  margin: 2% 0 0 0%;
+}
+.titles
+{
+
+}
+.images
+{
+  margin-left: 10%;
+}
+h1
+{
+  font-size: 60px;
+}
+.bottom
+{
+  margin-bottom: 30px;
+}
+.l-button
+{
+  margin-top:10px;
+}
+
+.dropdown-content {
+  margin-left: 7%;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media only screen and (max-width : 780px)
+{
+  .c-left
+  {
+    margin: 7% 0% 5% 7%;
+  }
+  h1
+  {
+    font-size:  40px;
+  }
+  .c-right
+  {
+    margin: 5% 0% 0% 10%;
+  }
+  .dropdown-content
+  {
+    display: block;
+    position:inherit;
+    z-index: 0;
+    box-shadow: 0 0 0 0;
+    background-color: White;
+  }
+}
